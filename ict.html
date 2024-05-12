@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Products Platform</title>
+    <link rel="stylesheet" href="ict.css"> <!-- Link to your CSS file for styling -->
+</head>
+<body>
+    <header>
+        <h1 id="title">PRODUCT INDIA</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home">
+            <h2>Welcome to Product  India  Platform</h2>
+            <p>Discover and support locally made products from India.</p>
+        </section>
+        
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="bag.jpg" alt="Leather Bag"  style="height: 170px; width: 380px;">
+                <h3>Leather Bag</h3>
+                <p>Genuine Leather Bag for Men Handmade Leather Bag, Men Leather Bag, Elegant Leather Bag, Made in India bag </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="watch.jpg" alt="Leather watch" style="height: 170px; width: 380px;">
+                <h3>Leather Watch</h3>
+                <p>Genuine Leather Watch for Men Handmade Leather Watch, Men Leather Watch, Elegant Leather Watch, Made in India Watch </p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="shoes.jpeg" alt="Leather Shoes">
+                <h3>Leather Shoes</h3>
+                <p>Genuine Leather Shoes for Men Handmade Leather Shoes, Men Leather Shoes, Elegant Leather Shoes, Made in India Shoes </p>
+                <button>Add to Cart</button>
+            </div>
+        </section>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>Learn about our mission to promote Indian products and support local industries.</p>
+        </section>
+        
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Get in touch with any questions or inquiries.</p>
+            <form action="contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea><br><br>
+                <button type="submit">Send</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Product India  Platform. All rights reserved.</p>
+    </footer>
+    <script src="ict.js"></script>
+</body>
+</html>
